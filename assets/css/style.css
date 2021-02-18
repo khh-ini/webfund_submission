@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+* {
+   box-sizing: border-box;
+}
+header {
+   display: inline;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #E95420;
+   text-align: center;
+   color: white;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+nav {
+   background-color: #000000;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover{
+   font-size: 18px;
+   padding: 20px;
+   text-decoration: none;
+   color: white;
+   background-color: #E95420;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   text-align: justify;
+}
+.center {
+   margin: 0 auto;
+}
+ 
+h2 {
+   color: #E95420;
+}
+ 
+h3 {
+   color: #E95420;
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #E95420;
+   text-align: center;
+}
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+li {
+   display: inline;
+   margin-left: 10px;
+}
+.rounded {
+   border-radius: 10px;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.profile header{
+   text-align: center;
+}
+.profile img {
+   border-radius: 50%;
+   width: 200px;
+   max-height: 200px;
+   object-fit: cover;
+   object-position: center
+}
+
+.box {
+   width: 200px;
+   height: 200px;
+}
+ 
+.first {
+   background-color: #60d0a8;
+}
+.second {
+   background-color: #6495ed;
+   position: relative;
+   top: 30px;
+   left: 10px;
+}
+.third {
+   background-color: #ffa500;
+}
+#content {
+   float: left;
+   width: 75%;
+}
+
+th, td {
+   border-bottom: 1px solid #ddd;
+ }
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+  }
